@@ -93,6 +93,7 @@ clearly demonstrating that the Streamer, FastAPI, and React services have all st
 ## 6. Methodology & Technical Decisions
    6.1. Design Philosophy
    **The architecture reflects modularity and extensibility.**
+   
    -- Loose Coupling: Components are clearly defined (Ingestion, Storage, Analytics, Visualization) and interact through clean interfaces (WebSockets, SQL, HTTP APIs).
       
    -- Extensibility: The design makes it straightforward to add new analytics or plug in a different data feed without breaking existing logic, avoiding major rework.
