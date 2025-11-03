@@ -47,14 +47,14 @@ This project requires Python 3.9+ and Node.js/npm.
    cd D:\Project\quant-trading-app
 
 ### 4.2. Python Backend Dependencies
-1. Activate Virtual Environment:
-   # For Windows:
+1. ## Activate Virtual Environment:
+   ## For Windows:
    .\venv\Scripts\activate
 
-   # For macOS/Linux:
+   ## For macOS/Linux:
    source venv/bin/activate
 
-2. Install Python Packages: The following command uses the dependency list in requirements.txt to install all required libraries.
+2. ## Install Python Packages: The following command uses the dependency list in requirements.txt to install all required libraries.
    pip install -r requirements.txt
 
 
