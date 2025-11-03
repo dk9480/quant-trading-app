@@ -139,5 +139,9 @@ This chart displays the normalized Z-Score against the critical mean-reversion s
 [**Image 2C: Z-Score Plot with Thresholds** - *<img width="1883" height="456" alt="image" src="https://github.com/user-attachments/assets/ce20f9db-a2b3-4e44-b9f1-3297f1fad788" />
 *]
 
+### 7.4. Resampled Volume
 
+This bar chart shows the resampled volume data used for the analytics pipeline, demonstrating successful aggregation from the raw tick data.
+
+[**Image 2D: Resampled Volume Plot** - <<img width="1863" height="510" alt="image" src="https://github.com/user-attachments/assets/1bf82aeb-1f92-4a36-a484-ddbd3a119135" />*]
 
