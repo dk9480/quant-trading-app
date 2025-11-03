@@ -108,4 +108,26 @@ clearly demonstrating that the Streamer, FastAPI, and React services have all st
 | **Data I/O**  | **Import/Export** | Functionality included to upload OHLC data and provide download options for processed data and analytics outputs. |
 
 
+## 7. Dashboard Screenshots
+
+### 7.1. Main Dashboard View (Metrics and Table)
+
+This screenshot shows the application's configuration settings, the real-time calculated metrics (Spread, Z-Score, Hedge Ratio), the trading signal status, and the raw time-series analytics table for data verification.
+
+[**Image 2A: Main Dashboard View** - *![Uploading WhatsApp Image 2025-11-04 at 05.01.05_5c763741.jpg…]()
+*]
+
+### 7.2. Spread Visualization
+
+This chart displays the Spread (residual) time series and its Rolling Mean, the basis for the mean-reversion signal.
+
+[**Image 2B: Spread and Rolling Mean Plot** - *Screenshot of the Spread and Z-Score chart focusing on the Spread.*]
+
+### 7.3. Z-Score Visualization
+
+This chart displays the normalized Z-Score against the critical mean-reversion signal thresholds (+2 and -2).
+
+[**Image 2C: Z-Score Plot with Thresholds** - *Screenshot of the Z-Score plot with alert thresholds.*]
+
+
 
