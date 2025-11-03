@@ -115,15 +115,15 @@ clearly demonstrating that the Streamer, FastAPI, and React services have all st
 This screenshot shows the application's configuration settings, the real-time calculated metrics (Spread, Z-Score, Hedge Ratio), the trading signal status, and the raw time-series analytics table for data verification.
 
 
-[**Image 2A: Main Dashboard View** - *<<img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/359d6099-6876-4d48-b962-65850ba6c771" />
- />
+[**Image 2A: Main Dashboard View** - *<img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/359d6099-6876-4d48-b962-65850ba6c771" />
 *]
 
 ### 7.2. Spread Visualization
 
 This chart displays the Spread (residual) time series and its Rolling Mean, the basis for the mean-reversion signal.
 
-[**Image 2B: Spread and Rolling Mean Plot** - *Screenshot of the Spread and Z-Score chart focusing on the Spread.*]
+[**Image 2B: Spread and Rolling Mean Plot** - *<img width="1900" height="437" alt="image" src="https://github.com/user-attachments/assets/4f3263d0-1fff-4742-a1de-dad96d0c1fbe" />
+*]
 
 ### 7.3. Z-Score Visualization
 
