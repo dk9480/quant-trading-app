@@ -102,3 +102,40 @@ Project Structure and Infrastructure: Used for generating boilerplate code for F
 Debugging: Assisted in troubleshooting platform-specific process handling errors.
 
 This usage was limited to assisting with boilerplate and infrastructure code; the core quantitative logic, architectural design, and ultimate project decisions were implemented and verified manually.
+
+
+
+
+6.2. Quantitative Analytics Implementation
+
+The core logic resides in the FastAPI endpoints:
+
+Metric
+
+Calculation
+
+Implementation Detail
+
+Hedge Ratio ($\beta$)
+
+OLS regression on log prices: $\log(\text{S2}) = \alpha + \beta \cdot \log(\text{S1}) + \epsilon$
+
+Calculated using statsmodels.api over a user-defined rolling window on resampled data.
+
+Spread
+
+Deviation from equilibrium: $\text{Spread} = \log(\text{S2}) - (\beta \cdot \log(\text{S1}) + \alpha)$
+
+Computed at the API layer after OLS is run.
+
+Z-Score
+
+Normalizes the spread: $\text{Z-Score} = \frac{\text{Spread} - \text{Rolling Mean}(\text{Spread})}{\text{Rolling Std Dev}(\text{Spread})}$
+
+Used for mean-reversion signal generation. Can be updated live.
+
+Data I/O
+
+Import/Export
+
+Functionality included to upload OHLC data and provide download options for processed data and analytics outputs.
