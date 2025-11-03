@@ -113,11 +113,17 @@ clearly demonstrating that the Streamer, FastAPI, and React services have all st
 ### 7.1. Main Dashboard View (Metrics and Table)
 
 This screenshot shows the application's configuration settings, the real-time calculated metrics (Spread, Z-Score, Hedge Ratio), the trading signal status, and the raw time-series analytics table for data verification.
+
 [**Image 2A: Main Dashboard View** - *<img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/359d6099-6876-4d48-b962-65850ba6c771" />
 *]
 
+
+
 This screenshot shows the application's **configuration settings** (Symbols: BTCUSDT/ETHUSDT, **Timeframe: 1S**), the real-time calculated metrics (Spread: 103027.5700, Z-Score: -1.12, Hedge Ratio: -10.8714), the current trading signal status, and the raw time-series analytics table for data verification.
+
 [**Image 2A: Main Dashboard View** - *<<img width="1885" height="971" alt="image" src="https://github.com/user-attachments/assets/b1c13ebc-502f-48ca-b654-3e0ba965b0a3" />*]
+
+
 
 ### 7.2. Spread Visualization
 
