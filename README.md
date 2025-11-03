@@ -114,7 +114,9 @@ clearly demonstrating that the Streamer, FastAPI, and React services have all st
 
 This screenshot shows the application's configuration settings, the real-time calculated metrics (Spread, Z-Score, Hedge Ratio), the trading signal status, and the raw time-series analytics table for data verification.
 
-[**Image 2A: Main Dashboard View** - *![Uploading WhatsApp Image 2025-11-04 at 05.01.05_5c763741.jpg…]()
+
+[**Image 2A: Main Dashboard View** - *<<img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/359d6099-6876-4d48-b962-65850ba6c771" />
+ />
 *]
 
 ### 7.2. Spread Visualization
