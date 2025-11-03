@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="Yo1nYjM9mcDz_qVOc3qZ">
+    <mxGraphModel dx="1389" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-1" value="Control Layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="330" height="924" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-2" value="Data Flow &amp; Analytics Pipeline" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="20" width="1053" height="924" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-3" value="Binance WSS Stream" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="899" y="57" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-4" value="binance_stream.py: Data Ingestion" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="856" y="195" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-5" value="tick_data.db: SQLite Storage" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="879" y="363" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-6" value="api.py: FastAPI Backend &amp; Analytics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="856" y="546" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-7" value="App.js: React Frontend &amp; UI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="439" y="697" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-8" value="app.py: Single-Command Orchestrator" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="45" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-9" value="User/Browser" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="121" y="865" width="127" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-10" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-11" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1283" y="892" as="geometry" />
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-12" value="1. Starts" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-8" target="LazV8XntFNo-uwmPbnyJ-4">
+          <mxGeometry x="0.0108" y="17" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="268" y="159" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-13" value="2. Starts" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.35;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-8" target="LazV8XntFNo-uwmPbnyJ-6">
+          <mxGeometry x="-0.0313" y="92" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="510" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-14" value="3. Starts" style="curved=1;startArrow=none;endArrow=block;exitX=0.34;exitY=1;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-8" target="LazV8XntFNo-uwmPbnyJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="103" y="159" />
+              <mxPoint x="103" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-15" value="Real-Time Tick Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-3" target="LazV8XntFNo-uwmPbnyJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-16" value="High-Freq Write (price, qty)" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-4" target="LazV8XntFNo-uwmPbnyJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-17" value="Interaction/Input" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.4;entryX=1;entryY=0.77;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-9" target="LazV8XntFNo-uwmPbnyJ-7">
+          <mxGeometry x="0.037" y="-4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1071" y="820" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-18" value="HTTP GET /analyze" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0;entryY=0.86;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-7" target="LazV8XntFNo-uwmPbnyJ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="637" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-19" value="SQL Read/Query" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.1;entryX=1;entryY=0.79;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-6" target="LazV8XntFNo-uwmPbnyJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-20" value="Raw Data" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.09;entryY=0;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-5" target="LazV8XntFNo-uwmPbnyJ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="782" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-21" value="" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.94;entryX=Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-6" target="LazV8XntFNo-uwmPbnyJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-22" value="Resample &amp; Compute (OLS, Z-Score)" style="curved=1;startArrow=none;endArrow=none;exitX=Infinity;exitY=-Infinity;entryX=-Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-10" target="LazV8XntFNo-uwmPbnyJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-Infinity;exitY=-Infinity;entryX=1;entryY=0.81;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-11" target="LazV8XntFNo-uwmPbnyJ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1395" y="820" />
+              <mxPoint x="1395" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-24" value="JSON Response" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-6" target="LazV8XntFNo-uwmPbnyJ-7">
+          <mxGeometry x="-0.0187" y="-6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="660" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-25" value="Display Charts &amp; Metrics" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1.01;entryY=0.27;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-7" target="LazV8XntFNo-uwmPbnyJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="569" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-26" value="Download CSV Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0;entryX=0.15;entryY=1;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-7" target="LazV8XntFNo-uwmPbnyJ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="811" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-27" value="Export Processed Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1.01;entryY=0.39;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-6" target="LazV8XntFNo-uwmPbnyJ-9">
+          <mxGeometry x="0.0515" y="-7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="986" y="820" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LazV8XntFNo-uwmPbnyJ-28" value="Upload OHLC CSV" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.41;entryX=0.84;entryY=1;rounded=0;" edge="1" parent="1" source="LazV8XntFNo-uwmPbnyJ-9" target="LazV8XntFNo-uwmPbnyJ-6">
+          <mxGeometry x="-0.0787" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="820" />
+              <mxPoint x="1155" y="660" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
