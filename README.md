@@ -54,7 +54,7 @@ This project requires Python 3.9+ and Node.js/npm.
       source venv/bin/activate
 
 # 2.  Install Python Packages: The following command uses the dependency list in requirements.txt to install all required libraries.
-   pip install -r requirements.txt
+      pip install -r requirements.txt
 
 
 ### 4.3. Node/React Frontend Dependencies
