@@ -26,7 +26,8 @@ The architecture is visualized below, showing the three services, the central st
 
 
 
-[Image of Architecture Diagram]
+<img width="1405" height="926" alt="Architecture_Diagram drawio" src="https://github.com/user-attachments/assets/dd990a37-9e6c-4e08-83f1-ab3617dfc166" />
+
 
 
 **(Note to Reviewer: The full-resolution image (`Architecture_Diagram.png`) and the editable source file (`Architecture_Diagram.drawio`) are included in the root directory, as required.)**
