@@ -78,8 +78,3 @@ This project requires Python 3.9+ and Node.js/npm.
 2. **Execute the Application:**
    ```bash
    python app.py
-   
-
-
-
-
