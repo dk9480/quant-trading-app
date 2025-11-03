@@ -6,6 +6,8 @@ The goal of this project is to implement a complete, end-to-end analytical stack
 
 This application is built with **extensibility** and **modularity** as primary design principles, serving as a prototype for a larger, real-time analytics system.
 
+---
+
 ## 2. System Architecture & Components
 
 The application follows a modular, decoupled architecture, split into three main services orchestrated by the master script `app.py`.
@@ -38,11 +40,11 @@ This project requires Python 3.9+ and Node.js/npm.
 ### 4.1. Prerequisites
 
 1. **Clone the Repository:** (Assumed complete)
+
 2. **Navigate to the Root Directory:**
 
    ```bash
    cd D:\Project\quant-trading-app
-
 
 ### 4.2. Python Backend Dependencies
 1. Activate Virtual Environment:
