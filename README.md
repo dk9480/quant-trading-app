@@ -51,6 +51,10 @@ This project requires Python 3.9+ and Node.js/npm.
    # For Windows:
          .\venv\Scripts\activate
    # For macOS/Linux:
-         source venv/bin/activate   
+         source venv/bin/activate
+
+2. **Install Python Packages: The following command uses the dependency list in requirements.txt to install all required libraries.**
+   ```bash
+   pip install -r requirements.txt
 
 
