@@ -103,9 +103,9 @@ clearly demonstrating that the Streamer, FastAPI, and React services have all st
 | Metric | Calculation | Implementation Detail |
 | :--- | :--- | :--- |
 | **Hedge Ratio ($\beta$)**  | OLS regression on log prices: $\log(\text{S2}) = \alpha + \beta \cdot \log(\text{S1}) + \epsilon$ | Calculated using statsmodels.api over a user-defined rolling window on resampled data.|
-| **Spread**  | Python, **Deviation from equilibrium: $\text{Spread} = \log(\text{S2}) - (\beta \cdot \log(\text{S1}) + \alpha)$**,  | Computed at the API layer after OLS is run. |
+| **Spread**  | **Deviation from equilibrium: $\text{Spread} = \log(\text{S2}) - (\beta \cdot \log(\text{S1}) + \alpha)$**,  | Computed at the API layer after OLS is run. |
 | **Z-Score**  | **Normalizes the spread: $\text{Z-Score} = \frac{\text{Spread} - \text{Rolling Mean}(\text{Spread})}{\text{Rolling Std Dev}(\text{Spread})}$** | Used for mean-reversion signal generation. Can be updated live. |
-| **Data I/O**  | **Import/Export** | An interactive web application for user input, displaying price charts, the spread time series, Z-score, and the final analytical table. |
+| **Data I/O**  | **Import/Export** | Functionality included to upload OHLC data and provide download options for processed data and analytics outputs. |
 
 
 
