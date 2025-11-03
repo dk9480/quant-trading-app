@@ -20,7 +20,7 @@ The application follows a modular, decoupled architecture, split into three main
 
 ---
 
-## 3. Architecture Diagram (Mandatory Deliverable)
+## 3. Architecture Diagram 
 
 The architecture is visualized below, showing the three services, the central storage, and the control flow managed by the Orchestrator.
 
