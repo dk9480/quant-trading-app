@@ -104,7 +104,8 @@ The screenshots below illustrate the key features and real-time outputs of the a
 
 This image shows the core metrics panel (Spread, Z-Score, Hedge Ratio) and the real-time updating analytical table.
 
-![Image 2A: Key Metrics and Analytical Table](Screenshot 2025-11-04 030322.png)
+![Image 2A: Key Metrics and Analytical Table](<img width="1919" height="905" alt="Screenshot 2025-11-04 030322" src="https://github.com/user-attachments/assets/cb623ea6-d4f1-4078-ac3d-0b9c4a17e7e8" />
+)
 
 ### 7.2. Spread Visualization
 
