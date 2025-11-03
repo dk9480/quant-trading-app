@@ -129,7 +129,8 @@ This chart displays the Spread (residual) time series and its Rolling Mean, the 
 
 This chart displays the normalized Z-Score against the critical mean-reversion signal thresholds (+2 and -2).
 
-[**Image 2C: Z-Score Plot with Thresholds** - *Screenshot of the Z-Score plot with alert thresholds.*]
+[**Image 2C: Z-Score Plot with Thresholds** - *<img width="1883" height="456" alt="image" src="https://github.com/user-attachments/assets/ce20f9db-a2b3-4e44-b9f1-3297f1fad788" />
+*]
 
 
 
