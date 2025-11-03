@@ -73,8 +73,15 @@ This project requires Python 3.9+ and Node.js/npm.
 ---
 
 ## 5. Execution (Single Command)
-**The application is bundled for single-command local execution using the master orchestrator script app.py.**
+The application is bundled for **single-command local execution** using the master orchestrator script app.py.
 1. **Ensure Python Virtual Environment is Active.**
 2. **Execute the Application:**
    ```bash
    python app.py
+
+   ### 4. Checkout Confirmation
+
+clearly demonstrating that the Streamer, FastAPI, and React services have all started successfully and data is being received.
+[**Image 1: Terminal Output** - *<img width="1484" height="362" alt="Screenshot 2025-11-04 025925" src="https://github.com/user-attachments/assets/4e8c3c67-8479-4b1b-b102-e2834a6b57d8" />
+*]
+!(image_d6933c.png)
