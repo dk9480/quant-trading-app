@@ -71,7 +71,7 @@ The application is bundled for single-command local execution using the master o
 
  2. Execute the Application:
     python app.py
-
+    
     <img width="1484" height="362" alt="image" src="https://github.com/user-attachments/assets/fc67a7ea-63a4-4608-b4b7-02f68530e6de" />
 
     <img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/4ea8b4f8-3a98-4dbb-84b1-5f4e1b8e83ca" />
