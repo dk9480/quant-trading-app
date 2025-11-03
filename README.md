@@ -70,6 +70,7 @@ The application is bundled for single-command local execution using the master o
  1. Ensure Python Virtual Environment is Active.
 
  2. Execute the Application:
+    ```bash
     python app.py
     
     <img width="1484" height="362" alt="image" src="https://github.com/user-attachments/assets/fc67a7ea-63a4-4608-b4b7-02f68530e6de" />
