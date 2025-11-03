@@ -1,0 +1,12 @@
+# Web Framework & Server
+fastapi
+uvicorn[standard]
+
+# Data Ingestion & Real-Time
+websockets
+
+# Data Analysis & Computation
+pandas
+numpy
+scipy 
+statsmodels
