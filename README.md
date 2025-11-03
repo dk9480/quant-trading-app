@@ -48,8 +48,8 @@ This project requires Python 3.9+ and Node.js/npm.
 
 ### 4.2. Python Backend Dependencies
 # 1.  Activate Virtual Environment:
-      ## For Windows:
-   .\venv\Scripts\activate
+      #For Windows:
+      ##.\venv\Scripts\activate
 
       ## For macOS/Linux:
    source venv/bin/activate
