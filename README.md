@@ -74,17 +74,19 @@ This project requires Python 3.9+ and Node.js/npm.
 ---
 
 ## 5. Execution (Single Command)
-The application is bundled for **single-command local execution** using the master orchestrator script app.py.
+
+The application is bundled for **single-command local execution** using the master orchestrator script `app.py`.
+
 1. **Ensure Python Virtual Environment is Active.**
+
 2. **Execute the Application:**
+
    ```bash
    python app.py
 
-   ### 4. Checkout Confirmation
+[SCREENSHOT 1: Terminal Output] Terminal Output Showing Successful System Orchestration and Real-Time Data Ingestion Clearly demonstrating that the Streamer, FastAPI, and React services have all started successfully and data is being received.
+<img width="1484" height="362" alt="image" src="https://github.com/user-attachments/assets/bbb0039e-6526-4fe8-b6ed-5a58f1362c06" />
 
-Clearly demonstrating that the Streamer, FastAPI, and React services have all started successfully and data is being received.
-[**Image 1: Terminal Output** - *<img width="1484" height="362" alt="Screenshot 2025-11-04 025925" src="https://github.com/user-attachments/assets/4e8c3c67-8479-4b1b-b102-e2834a6b57d8" />
-*]
 
 3. **Access the Dashboard: Open your web browser to the React frontend (usually http://localhost:3000).**
 4. **Shutdown: Press Ctrl+C in the terminal running app.py for a clean, simultaneous shutdown of all three services.**
