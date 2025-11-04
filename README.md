@@ -153,7 +153,9 @@ This bar chart shows the resampled volume data used for the analytics pipeline, 
 
 Click the link below to view a 90-second video demonstrating the **single-command execution (`python app.py`)** and the **real-time functionality of the React Dashboard**.
 
----On Root Folder.
+> **Note on Accessing the Video:** Due to GitHub file type restrictions, this link points to the video file's page. Please click the **"View Raw"** button on that page to initiate the download and watch the demo.
+
+[⬇️ Download Project Demo Video (video.mp4)](/demo/video.mp4)
 
 
 
