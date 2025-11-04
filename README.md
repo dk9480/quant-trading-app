@@ -146,3 +146,18 @@ This bar chart shows the resampled volume data used for the analytics pipeline, 
 
 [**Image 2D: Resampled Volume Plot** - <<img width="1863" height="510" alt="image" src="https://github.com/user-attachments/assets/1bf82aeb-1f92-4a36-a484-ddbd3a119135" />*]
 
+
+
+
+## 8. ChatGPT/LLM Usage Transparency
+
+In line with the assignment requirements, AI tools were used to enhance development speed and ensure robust system interaction.
+
+| Component | Task | Prompt Example |
+| :--- | :--- | :--- |
+| **`app.py` Script** | Orchestrating single-command execution and Windows/Unix process handling. | "How to start three python and one npm process with subprocess.Popen in python and ensure clean shutdown using Ctrl+C on both Windows and Linux?" |
+| **Debugging** | Troubleshooting the Windows-specific `os.setsid` error in `app.py`. | "Python subprocess Popen setsid error on Windows what is the equivalent flag for clean process group termination?" |
+| **Code Structure** | Generating templates for standard FastAPI boilerplate, API response schemas (Pydantic models), and React component structure. | "Write a FastAPI endpoint that connects to a SQLite database and returns a Pandas DataFrame for two symbols filtered by a timeframe parameter." |
+
+This usage was limited to assisting with boilerplate and infrastructure code; the core quantitative logic, architectural design, and ultimate project decisions were implemented and verified manually.
+
