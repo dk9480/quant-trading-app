@@ -149,6 +149,11 @@ This bar chart shows the resampled volume data used for the analytics pipeline, 
 [**Image 2D: Resampled Volume Plot** - <<img width="1863" height="510" alt="image" src="https://github.com/user-attachments/assets/1bf82aeb-1f92-4a36-a484-ddbd3a119135" />*]
 
 
+### 7.5. Video Demonstration
+
+Click the link below to view a 90-second video demonstrating the **single-command execution (`python app.py`)** and the **real-time functionality of the React Dashboard**.
+
+---On Root Folder.
 
 
 
