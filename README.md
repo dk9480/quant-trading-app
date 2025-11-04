@@ -151,6 +151,34 @@ This bar chart shows the resampled volume data used for the analytics pipeline, 
 
 
 
+## 7. Dashboard Screenshots
+
+### 7.1. Main Dashboard View (Metrics and Table)
+
+This screenshot shows the application's **configuration settings** (Symbols: BTCUSDT/ETHUSDT, **Timeframe: 1S**), the real-time calculated metrics (Spread: 103027.5700, Z-Score: -1.12, Hedge Ratio: -10.8714), the current trading signal status, and the raw time-series analytics table for data verification.
+
+<img width="1885" height="971" alt="Main Dashboard View showing Metrics, Z-Score, and Table" src="https://github.com/user-attachments/assets/b1c13ebc-502f-48ca-b654-3e0ba965b0a3" />
+
+### 7.2. Spread Visualization
+
+This chart displays the Spread (residual) time series and its Rolling Mean, the basis for the mean-reversion signal.
+
+<img width="1900" height="437" alt="Spread and Rolling Mean Plot" src="https://github.com/user-attachments/assets/4f3263d0-1fff-4742-a1de-dad96d0c1fbe" />
+
+### 7.3. Z-Score Visualization
+
+This chart displays the normalized Z-Score against the critical mean-reversion signal thresholds (+2 and -2).
+
+<img width="1883" height="456" alt="Z-Score Plot with Thresholds" src="https://github.com/user-attachments/assets/ce20f9db-a2b3-4e44-b9f1-3297f1fad788" />
+
+### 7.4. Resampled Volume
+
+This bar chart shows the resampled volume data used for the analytics pipeline, demonstrating successful aggregation from the raw tick data.
+
+<img width="1863" height="510" alt="Resampled Volume Plot" src="https://github.com/user-attachments/assets/1bf82aeb-1f92-4a36-a484-ddbd3a119135" />
+
+
+
 
 ## 8. ChatGPT/LLM Usage Transparency
 
