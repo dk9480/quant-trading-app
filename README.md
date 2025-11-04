@@ -2,7 +2,7 @@
 
 ## 1. Project Objective
 
-The goal of this project is to implement a complete, end-to-end analytical stack capable of ingesting real-time tick data from the Binance WebSocket, persisting it, running core quantitative analytics (specifically for Pairs Trading), and visualizing the results through an interactive web dashboard.
+The goal of this project is to implement a complete, end-to-end analytical stack capable of ingesting real-time tick data from th   e Binance WebSocket, persisting it, running core quantitative analytics (specifically for Pairs Trading), and visualizing the results through an interactive web dashboard.
 
 This application is built with **extensibility** and **modularity** as primary design principles, serving as a prototype for a larger, real-time analytics system.
 
