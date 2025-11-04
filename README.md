@@ -124,7 +124,7 @@ This screenshot shows the application's configuration settings, the real-time ca
 
 This screenshot shows the application's **configuration settings** (Symbols: BTCUSDT/ETHUSDT, **Timeframe: 1S**), the real-time calculated metrics (Spread: 103027.5700, Z-Score: -1.12, Hedge Ratio: -10.8714), the current trading signal status, and the raw time-series analytics table for data verification.
 
-[**Image 2A: Main Dashboard View** - *<<img width="1885" height="971" alt="image" src="https://github.com/user-attachments/assets/b1c13ebc-502f-48ca-b654-3e0ba965b0a3" />*]
+[**Image 2A: Main Dashboard View** - *<img width="1885" height="971" alt="image" src="https://github.com/user-attachments/assets/b1c13ebc-502f-48ca-b654-3e0ba965b0a3" />*]
 
 
 
